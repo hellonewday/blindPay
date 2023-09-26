@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "blindPay",
+    "name": "Blind Pay",
     "slug": "blindPay",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,20 +11,26 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hungnguyen98.blindPay"
     },
     "android": {
+      "softwareKeyboardLayoutMode": "pan",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hungnguyen98.blindPay"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "74d87d21-f563-43cd-8c75-a01b19c2bb95"
+      }
     }
   }
 }
